@@ -1,7 +1,7 @@
 # Django-101-hydpy-talk
 Talk on Django 101 with Hyderabad Python Meetup Group
 
-### Setting up virtual envnironment
+## Setting up virtual envnironment
 
 
 ```bash
@@ -16,3 +16,9 @@ pip install django==1.11
 
 
 ```
+
+
+## django apps 
+
+- contact_form
+- blog

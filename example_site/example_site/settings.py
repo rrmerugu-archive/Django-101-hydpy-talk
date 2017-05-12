@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    'contact_form',
+    'contact_form', # this provides contact page for the application
 ]
 
 MIDDLEWARE = [
