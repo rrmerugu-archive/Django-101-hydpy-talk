@@ -2,16 +2,16 @@
 {% block title %} Blog List {% endblock %}
 
 
-
 {% block content %}
 
 <h1>Blogs List</h1>
 
-    {% for blog in blogs %}
-        <h3><a href="{% url 'blog_view' blog.id %}">{{blog.title}}</a></h3>
-        <div>
-            {{ blog.text |escape|truncatewords:30}}
-        </div>
-    {% endfor %}
+{% for blog in blogs %}
+    <h3><a href="{% url 'blog_view' blog.id %}">{{blog.title}}</a></h3>
+    <p>by <strong>{{blog.created_by.username}}</strong> at {{blog.created_at}}</p>
+    <div style="margin-bottom:50px;">
+        {{ blog.text |escape|truncatewords:30}}
+    </div>
+{% endfor %}
 
 {% endblock %}
