@@ -20,5 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('contact_form.urls')),
     url(r'^', include('blog.urls')),
+    url(r'^', include('static_pages.urls')),
 
 ]

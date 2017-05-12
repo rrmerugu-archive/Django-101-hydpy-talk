@@ -37,10 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
-    'contact_form', # this provides contact page for the application
+
     'blog', # this provides blog for the application
+    'contact_form',  # this provides contact page for the application
+    'static_pages',
 ]
+
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
