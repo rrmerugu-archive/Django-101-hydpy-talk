@@ -12,7 +12,7 @@ virtualenv venv
 source ./venv/bin/activate
 
 # install the requirements
-pip install django==1.10.4  
+pip install django==1.11
 
 
 ```
