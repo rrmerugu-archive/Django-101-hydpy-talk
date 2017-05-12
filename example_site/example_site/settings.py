@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'contact_form', # this provides contact page for the application
+    'blog', # this provides blog for the application
 ]
 
 MIDDLEWARE = [

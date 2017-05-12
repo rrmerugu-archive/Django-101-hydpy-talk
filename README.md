@@ -14,7 +14,8 @@ source ./venv/bin/activate
 # install the requirements
 pip install django==1.11
 
-
+# create a superuser
+./manage.py createsuperuser 
 ```
 
 
