@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1> contact form </h1>
+
+
+<form method="post" action=".">
+    {{form.as_p}}
+    {% csrf_token %}
+    <button type="submit">Submit</button>
+
+</form>
+
+    {% if messages %}
+        {% for message in messages %}
+            <div >
+                {{ message|safe }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+{% endblock %}

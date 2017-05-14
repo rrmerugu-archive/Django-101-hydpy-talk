@@ -1,6 +1,10 @@
 # Django-101-hydpy-talk
 Talk on Django 101 with Hyderabad Python Meetup Group
 
+
+https://docs.google.com/presentation/d/1TMfEbBNFWy1Uo0bubO5Uxk19lNbRnB2W0NSVLjGd8Gc/edit?usp=sharing
+
+
 ## Setting up virtual envnironment
 
 
